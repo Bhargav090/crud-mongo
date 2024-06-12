@@ -145,3 +145,4 @@ app.post('/delteItem', (req,res)=>{
         console.log(err)
     }
 })
+app.listen("1212", () => console.log("running"));
