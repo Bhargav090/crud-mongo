@@ -3,6 +3,9 @@ const mongoose = require("mongoose");
 const app = express();
 const Product = require("./model");
 app.use(express.json());
+const cors = require('cors');
+app.use(bodyParser.json());
+app.use(cors());
 
 let url = require("./url");
 //--------------------connection to database-----------------------------------
