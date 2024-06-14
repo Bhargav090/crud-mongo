@@ -1,1 +1,1 @@
-module.exports = `mongodb+srv://admin:admin@cluster0.lauexvx.mongodb.net/`
+module.exports = `mongodb+srv://admin:bhargav123@cluster0.lauexvx.mongodb.net/`
